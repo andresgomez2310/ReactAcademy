@@ -4,7 +4,7 @@ Aplicación web desarrollada con **React** y **Vite** para recrear una landing p
 
 ---
 
-## 📋 Requisitos A Tener En Cuenta
+## Requisitos A Tener En Cuenta
 
 - [x] **Proyecto con Vite + React:**
 - [x] **Un archivo `.jsx` por componente con su propio CSS:** Separación modular ubicada en `src/components/`.
@@ -17,7 +17,7 @@ m
 ```text
 src/
 ├── components/
-│   ├── Navbar.jsx       # Barra de navegación (#inicio, #cursos, #nosotros)
+│   ├── Navbar.jsx       # Barra de navegación
 │   ├── Navbar.css
 │   ├── Hero.jsx         # Portada principal
 │   ├── Hero.css
