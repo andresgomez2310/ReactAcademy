@@ -1,0 +1,16 @@
+.footer {
+  background-color: #0b0e17;
+  padding: 28px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer p {
+  color: #64748b;
+  font-size: 0.82rem;
+}
+
+.brand-red {
+  color: #f43f5e;
+  font-weight: 600;
+}

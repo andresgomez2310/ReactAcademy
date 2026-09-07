@@ -1,0 +1,70 @@
+.counter-section {
+  background-color: #0f1422;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.counter-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.counter-section h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.counter-subtitle {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+
+.counter-card {
+  background-color: #172033;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 24px 45px;
+  margin-bottom: 14px;
+}
+
+.counter-btn {
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.counter-btn:hover {
+  background-color: #e11d48;
+}
+
+.counter-btn:active {
+  transform: scale(0.95);
+}
+
+.counter-value {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f43f5e;
+  min-width: 60px;
+}
+
+.counter-caption {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
