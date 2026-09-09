@@ -1,6 +1,6 @@
 # ReactAcademy — Landing Page
 
-Aplicación web desarrollada con **React** y **Vite** como parte del **Taller 03**.
+Aplicación web desarrollada con **React** y **Vite**.
 
 El objetivo del proyecto fue recrear una landing page respetando la jerarquía visual del diseño, aplicando buenas prácticas de desarrollo y cumpliendo con los requisitos técnicos de componentización, uso de props y manejo de estado.
 
