@@ -1,8 +1,23 @@
-ReactAcademy — Landing Page (Taller 03)
-Aplicación web desarrollada con React y Vite para recrear una landing page, cumpliendo con la jerarquía visual, manejando buenas practicas de diseño y los requisitos técnicos de componentización, uso de props y manejo de estado.
+# ReactAcademy — Landing Page
 
-Requisitos A Tener En Cuenta
- Proyecto con Vite + React:
- Un archivo .jsx por componente con su propio CSS: Separación modular ubicada en src/components/.
- Gitignore configurado: La carpeta node_modules no se incluye en el repositorio.
- 
+Aplicación web desarrollada con **React** y **Vite**.
+
+El objetivo del proyecto fue recrear una landing page respetando la jerarquía visual del diseño, aplicando buenas prácticas de desarrollo y cumpliendo con los requisitos técnicos de componentización, uso de props y manejo de estado.
+
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+## Requisitos implementados
+
+- Proyecto creado con **Vite + React**
+- Un archivo `.jsx` por componente
+- Cada componente cuenta con su propio archivo CSS
+- Separación modular dentro de `src/components/`
+- Uso de **props** para la reutilización de componentes
+- Manejo de **estado** en React
+- Archivo `.gitignore` configurado correctamente
+- La carpeta `node_modules` no se incluye en el repositorio
