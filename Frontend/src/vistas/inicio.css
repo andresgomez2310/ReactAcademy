@@ -1,0 +1,48 @@
+.vista-inicio {
+  min-height: calc(100vh - 70px);
+  padding-top: 70px;
+}
+
+.seccion-portada {
+  padding: 100px 20px 80px 20px;
+  background: radial-gradient(circle at 65% 35%, #182a4a 0%, #0d1220 70%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contenido-portada h1 {
+  font-size: 2.9rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: #ffffff;
+}
+
+.contenido-portada .resaltado {
+  color: #f43f5e;
+}
+
+.contenido-portada p {
+  color: #94a3b8;
+  font-size: 1.05rem;
+  max-width: 500px;
+  margin: 0 auto 32px auto;
+  line-height: 1.6;
+}
+
+.boton-accion {
+  display: inline-block;
+  background-color: #f43f5e;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+}
+
+.boton-accion:hover {
+  background-color: #e11d48;
+}

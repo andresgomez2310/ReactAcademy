@@ -1,0 +1,30 @@
+.vista-cursos {
+  min-height: 100vh;
+  padding: 120px 20px 60px 20px;
+  background-color: #f8fafc;
+}
+
+.contenedor-cursos {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.vista-cursos .titulo-seccion {
+  color: #1e293b;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.vista-cursos .subtitulo-seccion {
+  color: #64748b;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+.cuadricula-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}

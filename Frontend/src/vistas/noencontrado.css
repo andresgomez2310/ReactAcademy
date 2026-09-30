@@ -1,0 +1,44 @@
+.vista-no-encontrada {
+  min-height: 100vh;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #0f1422;
+}
+
+.contenido-no-encontrado h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #f43f5e;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.contenido-no-encontrado h2 {
+  font-size: 2rem;
+  margin-bottom: 14px;
+}
+
+.contenido-no-encontrado p {
+  color: #94a3b8;
+  max-width: 400px;
+  margin: 0 auto 28px auto;
+  line-height: 1.5;
+}
+
+.boton-volver-inicio {
+  display: inline-block;
+  background-color: #f43f5e;
+  color: #ffffff;
+  padding: 10px 24px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.boton-volver-inicio:hover {
+  background-color: #e11d48;
+}

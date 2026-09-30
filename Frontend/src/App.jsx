@@ -1,22 +1,24 @@
-// src/App.jsx
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Courses from './components/Courses';
-import Counter from './components/Counter';
-import Footer from './components/Footer';
+import { Routes, Route } from 'react-router-dom';
+import Navegacion from './componentes/navegacion';
+import Inicio from './vistas/inicio';
+import Cursos from './vistas/curso';
+import Nosotros from './vistas/nosotros';
+import Login from './vistas/login';
+import NoEncontrada from './vistas/noencontrado';
 
-function App() {
+export default function App() {
   return (
-    <div className="app-container">
-      <Navbar />
+    <div className="aplicacion">
+      <Navegacion />
       <main>
-        <Hero />
-        <Courses />
-        <Counter />
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/cursos" element={<Cursos />} />
+          <Route path="/nosotros" element={<Nosotros />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<NoEncontrada />} />
+        </Routes>
       </main>
-      <Footer />
     </div>
   );
 }
-
-export default App;

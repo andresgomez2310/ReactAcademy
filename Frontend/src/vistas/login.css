@@ -1,0 +1,111 @@
+.vista-login {
+  min-height: 100vh;
+  padding: 120px 20px 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at 50% 30%, #152238 0%, #0d1220 80%);
+}
+
+.tarjeta-login {
+  background-color: #172033;
+  width: 100%;
+  max-width: 420px;
+  padding: 36px 30px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta-login h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+.subtitulo-login {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.formulario-login {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.grupo-formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 6px;
+}
+
+.grupo-formulario label {
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.grupo-formulario input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.grupo-formulario input:focus {
+  border-color: #f43f5e;
+}
+
+.grupo-formulario input:disabled {
+  background-color: #1e293b;
+  color: #64748b;
+  cursor: not-allowed;
+  border-color: #334155;
+}
+
+.boton-ingresar {
+  background-color: #f43f5e;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: background-color 0.2s ease, opacity 0.2s;
+}
+
+.boton-ingresar:hover:not(:disabled) {
+  background-color: #e11d48;
+}
+
+.boton-ingresar:disabled {
+  background-color: #475569;
+  color: #94a3b8;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.texto-aclaratorio {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 6px;
+}
+
+.mensaje-exito {
+  color: #34d399;
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 10px;
+}
